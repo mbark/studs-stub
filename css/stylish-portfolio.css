@@ -111,11 +111,21 @@ body {
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/bg2.JPG) no-repeat center center fixed; 
+  background: url(../img/mattetornet.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.image-overlay {
+  width: 100%;
+  margin-top: 12%;
+  padding: 50px 0;
+  background: #ffffff;
+  opacity: 0.9;
+  color: #333333;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 
 /* Intro */
@@ -169,7 +179,7 @@ i.service-icon:hover {
 .the-team {
   color: #ffffff;
   display: table;
-  height: 400px;
+  height: 80%;
   width: 100%;
   background: url(../img/gruppfoto.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
