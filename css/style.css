@@ -142,24 +142,31 @@ body {
 
 .image-overlay {
   width: 100%;
-  max-width: 500px;
   padding: 50px 0;
   color: #FFFFFF;
   margin: 0 auto;
+  table-layout: fixed;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-.image-overlay > .container > h1 {
+.image-overlay > .container > .row > .text-center > h1 {
     font-size: 50px;
     font-family: 'Avenir', sans-serif;
     text-align: center;
     font-weight: 600;
+    display: table-cell;
+    vertical-align: middle;
+
 }
 
-.image-overlay > .container > p {
+.image-overlay > .container > .row > .text-center > p {
     font-family: 'Avenir', sans-serif;
-    max-width: 450px;
     text-align: center;
     font-size: 18px;
+    padding-top: 50px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .image-overlay > .container {
