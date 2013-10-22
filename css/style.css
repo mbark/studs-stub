@@ -151,21 +151,20 @@ body {
 }
 
 .image-overlay > .container > .row > .text-center > h1 {
-    font-size: 50px;
+    font-size: 4.5em;
     font-family: 'Avenir', sans-serif;
     text-align: center;
     font-weight: 600;
-    display: table-cell;
-    vertical-align: middle;
-
+    max-width: 650px;
+    margin: 0 auto;
 }
 
 .image-overlay > .container > .row > .text-center > p {
     font-family: 'Avenir', sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.5em;
     padding-top: 50px;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
