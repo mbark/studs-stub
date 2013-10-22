@@ -127,6 +127,11 @@ body {
   border: 0px;
 }
 
+#navigation-bar .logo {
+    height: 58px;
+    padding-top: 12px;
+}
+
 #navigation-bar.navbar-default .navbar-nav > li > a {
   color: #ffffff;
   padding-top: 25px;
