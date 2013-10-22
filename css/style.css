@@ -268,7 +268,7 @@ i.service-icon:hover {
 /* General button style (reset) */
 .btn {
     border: none;
-    font-family: inherit;
+    font-family: 'Avenir';
     font-size: inherit;
     color: #ffffff;
     background: none;
