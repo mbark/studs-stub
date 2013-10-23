@@ -90,43 +90,78 @@
     <div class="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <div class="heading text-center">
-              <h2>
-                Kontakt
-              </h2>
-            </div>
-            <div class="col-md-6 text-center">
-              <div>
+          <div class="col-md-6 col-md-offset-3 heading text-center">
+            <h2>
+              Kontakt
+            </h2>
+            <p>
+              För mer information, kontakta projektledare Jesper Bratt, 
+              säljansvarig Gustav Engström, eller skicka oss ett meddelande
+              via kontaktformuläret så hör vi av oss!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-col-12">
+            <div class="contact-card">
+              <div class="contact-photo">
+                <img src="img/bratt.png" class="img-responsive img-circle" />
+              </div>
+              <div class="contact-details">
                 <h4>Jesper Bratt</h4>
                 <p>Projektledare</p>
+                <p>0730887497</p>
+                <p>jbratt@kth.se</p>
               </div>
-              <div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-photo">
+                <img src="img/engstrom.jpg" class="img-responsive img-circle"/>
+              </div>
+              <div class="contact-details">
                 <h4>Gustav Engström</h4>
                 <p>Säljansvarig</p>
+                <p>0704949447</p>
+                <p>guseng@kth.se</p>
               </div>
             </div>
-            <div class="col-md-6">
-              <form role="form" class="form-horizontal">
-                <div class="form-group">
-                  <label for="inputName">Namn</label>
-                  <input type="text" class="form-control" id="inputName" placeholder="Namn">
+          </div>
+
+          <!-- Contact form -->
+          <div class="contact-form col-md-6">
+            <form role="form" class="form-horizontal">
+              <div class="form-group">
+                <label for="inputName" class="col-sm-3 col-xs-12 control-label">Namn</label>
+                <div class="col-sm-9 col-xs-12">
+                  <input type="text" class="form-control" id="inputName" >
                 </div>
-                <div class="form-group">
-                  <label for="inputCompany">Namn</label>
-                  <input type="text" class="form-control" id="inputCompany" placeholder="Företag">
+              </div>
+              <div class="form-group">
+                <label for="inputCompany" class="col-sm-3 col-xs-12 control-label">Företag</label>
+                <div class="col-sm-9 col-xs-12">
+                  <input type="text" class="form-control" id="inputCompany" >
                 </div>
-                <div class="form-group">
-                  <label for="inputEmail">Email</label>
-                  <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="inputEmail" class="col-sm-3 col-xs-12 control-label">Email</label>
+                <div class="col-sm-9 col-xs-12">
+                  <input type="email" class="form-control" id="inputEmail">
                 </div>
-                <div class="form-group">
-                  <label for="inputMessage">Meddelande</label>
-                  <textarea class="form-control" id="inputMessage" rows="4"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="inputMessage" class="col-sm-3 col-xs-12 control-label">Meddelande</label>
+                <div class="col-sm-9 col-xs-12">
+                  <textarea class="form-control" id="inputMessage" rows="5"></textarea>
                 </div>
-                <button type="submit" class="btn btn-default">Skicka</button>
-              </form>
-            </div>
+              </div>
+              <div class="col-sm-9 col-sm-offset-3">
+                <button type="submit" class="btn btn-2 btn-2a btn-submit">Skicka</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
