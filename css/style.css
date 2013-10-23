@@ -304,6 +304,10 @@ i.service-icon:hover {
   padding: 50px 0px;
 }
 
+.contact .heading {
+  padding-bottom: 30px;
+}
+
 /* Footer */
 
 footer {
