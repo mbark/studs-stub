@@ -279,27 +279,24 @@ i.service-icon:hover {
     transition: all 0.3s;
 }
 
-.btn-2 {
+.btn-cerise {
     background: #df288c;
     color: #fff !important;
     box-shadow: 0 6px #c70f74;
     -webkit-transition: none;
     -moz-transition: none;
     transition: none;
-}
-
-.btn-2a {
     border-radius: 0 0 5px 5px;
     color: #ffffff;
 }
 
-.btn-2a:hover {
+.btn-cerise:hover {
     box-shadow: 0 4px #c70f74;
     top: 2px;
     color: #ffffff;
 }
 
-.btn-2a:active {
+.btn-cerise:active {
     box-shadow: 0 0 #c70f74;
     top: 6px;
     color: #ffffff;
