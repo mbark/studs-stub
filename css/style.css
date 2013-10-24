@@ -140,7 +140,7 @@ background-color: #ffffff;
   vertical-align: middle;
 }
 
-.image-overlay > .container > .row > .text-center > h1 {
+#header-box > h1 {
     font-size: 4.5em;
     font-family: 'Avenir', sans-serif;
     text-align: center;
@@ -149,7 +149,7 @@ background-color: #ffffff;
     margin: 0 auto;
 }
 
-.image-overlay > .container > .row > .text-center > p {
+#header-box > p {
     font-family: 'Avenir', sans-serif;
     text-align: center;
     font-size: 1.5em;
@@ -157,11 +157,13 @@ background-color: #ffffff;
     max-width: 600px;
     margin: 0 auto;
 }
-.image-overlay > .container > .row > .text-center .read-more {
+
+#header-box .read-more {
     margin-top: 50px;
     height: 60px;
     padding: 0px 40px;
 }
+
 .image-overlay > .container {
     margin: 0 auto;
 
@@ -316,7 +318,7 @@ i.service-icon:hover {
 /* Contact */
 
 .contact {
-  padding: 50px auto;
+  padding: 50px 0;
 }
 
 .contact .heading {
