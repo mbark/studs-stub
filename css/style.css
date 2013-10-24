@@ -149,10 +149,15 @@ background-color: #ffffff;
     margin: 0 auto;
 }
 
+@media(max-width: 768px) {
+  #header-box > h1{
+    font-size: 3.0em;
+  }
+}
+
 #header-box > p {
     font-family: 'Avenir', sans-serif;
     text-align: center;
-    font-size: 1.5em;
     padding-top: 30px;
     max-width: 600px;
     margin: 0 auto;
