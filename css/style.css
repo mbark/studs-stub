@@ -263,7 +263,7 @@ i.service-icon:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    outline: none;
+    outline: none !important;
     position: relative;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
