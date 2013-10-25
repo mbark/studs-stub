@@ -123,7 +123,7 @@ background-color: #ffffff;
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(../img/bicycle.jpg) no-repeat center center fixed;
+  background: url(../img/bicycle-compressed.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -226,7 +226,7 @@ i.service-icon:hover {
   display: table;
   height: 80%;
   width: 100%;
-  background: url(../img/cafe.jpg) no-repeat center center fixed;
+  background: url(../img/cafe-compressed.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
